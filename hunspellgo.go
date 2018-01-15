@@ -7,10 +7,10 @@ import (
 )
 
 // #cgo linux LDFLAGS: -lhunspell
-// #cgo darwin LDFLAGS: -lhunspell-1.3 -L/opt/local/lib
+// #cgo darwin LDFLAGS: -lhunspell-1.6 -L/opt/local/lib
 // #cgo darwin CFLAGS: -I/opt/local/include
 // #cgo freebsd CFLAGS: -I/usr/local/include
-// #cgo freebsd LDFLAGS: -L/usr/local/lib -lhunspell-1.3
+// #cgo freebsd LDFLAGS: -L/usr/local/lib -lhunspell-1.6
 // #include <stdlib.h>
 // #include <stdio.h>
 // #include <hunspell/hunspell.h>
